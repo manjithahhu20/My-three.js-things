@@ -98,7 +98,7 @@ const preload = () => {
           this.data = {
   
               text: 'UMAL MANJITHA',
-              amount: 2000,
+              amount: 1500,
               particleSize: 1,
               particleColor: 0xffffff,
               textSize: 16,
