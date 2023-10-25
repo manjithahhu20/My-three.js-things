@@ -98,10 +98,10 @@ const preload = () => {
           this.data = {
   
               text: 'UMAL MANJITHA',
-              amount: 1500,
+              amount: 2000,
               particleSize: 1,
               particleColor: 0xffffff,
-              textSize: 20,
+              textSize: 16,
               area: 250,
               ease: .05,
           }
