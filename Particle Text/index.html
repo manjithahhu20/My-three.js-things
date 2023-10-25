@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r125/three.min.js"></script>
-    <script src="file.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Umal Manjitha</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r125/three.min.js"></script>
+  <script src="file.js"></script>
 </head>
+
 <body>
-    
-<script type="x-shader/x-vertex" id="vertexshader">
+
+  <script type="x-shader/x-vertex" id="vertexshader">
 
     attribute float size;
     attribute vec3 customColor;
@@ -26,9 +28,9 @@
     }
   
   </script>
-  
+
   <script type="x-shader/x-fragment" id="fragmentshader">
-  
+
    uniform vec3 color;
    uniform sampler2D pointTexture;
   
@@ -41,10 +43,11 @@
   
    }
   </script>
-  
+
   <div id="magic"></div>
-  
-  
-  
+
+
+
 </body>
+
 </html>
